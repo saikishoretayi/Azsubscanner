@@ -1,0 +1,1 @@
+﻿Get-AzSKAzureServicesSecurityStatus -SubscriptionId 479266ef-b2aa-4dc8-8c29-07d76744d6bc
