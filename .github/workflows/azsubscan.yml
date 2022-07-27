@@ -9,7 +9,7 @@ jobs:
     - uses: actions/checkout@master
 
     - name: SubscriptionSecScan.exe
-      uses: Saikishoretayi/Azsubscanner
+      uses: saikishoretayi/Azsubscanner@v1
 
     - name: SubscriptionSecScan Push
       run: SubscriptionSecScan push *.exe
