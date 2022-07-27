@@ -1,15 +1,14 @@
 steps:
-name: Azure Subscription Scanner
+name: Azsubscanner
 on: [push]
 jobs:
-  build:
     runs-on: windows-latest
 
     steps:
+	
     - uses: actions/checkout@master
-
     - name: SubscriptionSecScan.exe
-      uses: saikishoretayi/Azsubscanner@v1
+      uses: Saikishoretayi/Azsubscanner
 
     - name: SubscriptionSecScan Push
       run: SubscriptionSecScan push *.exe
