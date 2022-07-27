@@ -1,0 +1,2 @@
+# Azsubscanner
+Azure Subscription Scanner
